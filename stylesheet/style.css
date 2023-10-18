@@ -1,25 +1,18 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-
-
-}
-
-
-
-.body {
-    padding: 2px;
+    min-height: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
-}
-
-.body,
-h1 {
     text-align: center;
-    font-size: 25px;
+    
+
 }
+
 
 p {
     font-size: 18px;
@@ -68,15 +61,19 @@ header {
 
     background-color: #ddb29afd;
     height: 210px;
-    margin: 0;
     border-top: 9px solid #f78262fd;
-    display: inline-block;
     width: 100%;
-    justify-content: center;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+
+
 
 
 
 }
+
+
 
 h2 {
     position: relative;
@@ -109,6 +106,7 @@ h2 {
     align-content: center;
     width: fit-content;
 
+
 }
 
 label[for="username"] {
@@ -131,12 +129,15 @@ label[for="email"] {
 
 
 
-.footer {
-    display: block;
+footer {
+
     background-color: seagreen;
     text-align: center;
     padding: 5px;
     font-size: 15px;
     color: white;
-    border-bottom: 9px solid #83297efd
+    border-bottom: 9px solid #83297efd;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
 }
