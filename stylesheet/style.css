@@ -1,0 +1,142 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+.body {
+    padding: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.body,
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+
+}
+
+
+header {
+    border: 10px solid seagreen;
+    padding: 10px seagreen;
+    margin: 0px auto;
+    text-align: center;
+    text-size-adjust: 5px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: seagreen;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 9px solid #f78262fd
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+
+
+.container {
+
+    background-color: #ddb29afd;
+    height: 210px;
+    margin: 0;
+    border-top: 9px solid #f78262fd;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+
+
+
+}
+
+h2 {
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.inputbox,
+.inputbox1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+
+.border {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #f78262fd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+
+}
+
+label[for="username"] {
+
+    font-size: 18px;
+
+
+
+
+}
+
+label[for="email"] {
+
+    font-size: 18px;
+
+
+}
+
+
+
+
+
+.footer {
+    display: block;
+    background-color: seagreen;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    border-bottom: 9px solid #83297efd
+}
